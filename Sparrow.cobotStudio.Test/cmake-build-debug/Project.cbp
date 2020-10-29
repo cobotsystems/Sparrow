@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\code1\;CMake Files\..\..\..\..\code1\cobotos\;CMake Files\..\..\..\..\code1\cobotos\Tiger\;CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\;CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\;CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\;CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\;CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\;CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\;CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Platform\;CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Compiler\;CMake Files\..\..\Tiger\;CMake Files\..\..\Tiger\Tiger.Make\;CMake Files\..\..\Tiger\Tiger.Make\cmake\;CMake Files\..\..\Tiger\Tiger.Make\cmake\template\;CMake Files\..\..\Tiger\Tiger.Make\cmake\pc.in\;CMake Files\..\..\install\;CMake Files\..\..\install\x86-64-install\;CMake Files\..\..\install\x86-64-install\oss\;CMake Files\..\..\install\x86-64-install\oss\lib\;CMake Files\..\..\install\x86-64-install\oss\lib\cmake\;CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\;CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Sql\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\;CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Network\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COBOTSYS_DEV_INCLUDE">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 COBOTSYS_DEV_INCLUDE"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COBOTSYS_COMMON_INCLUDE">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 COBOTSYS_COMMON_INCLUDE"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testRobotMove">
+				<Option output="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/testRobotMove" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DvtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2)"/>
+					<Add option="-DvtkIOExport_AUTOINIT=2(vtkIOExportOpenGL2,vtkIOExportPDF)"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-DvtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2)"/>
+					<Add option="-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/include/libdrm"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Cow.CobotStudio.FrameWork"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Cow.CobotStudio.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Falcon.Camera.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Sensor.RobotDirver.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Sensor.ForceSensor.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Sensor.PLC.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Cow.RobWork.Core"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Puppy.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Tiger.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Tiger.DBus-CXX"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/code1/cobotos/install/x86-64-install/oss/include/pcl-1.9"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/orocos_kdl"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/eigen3.2.10/eigen3"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/code1/cobotos/install/x86-64-install/oss/include/vtk/vtk-8.2"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/cryptopp"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/osg"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/bullet"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/fcl"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/opencv"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/curl"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/zlib"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/xerces"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/SQLiteCpp"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/mongoose"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/dbus/dbus-1.0"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/dbus-1.0/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/sigc/sigc++-2.0"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/sigc++-2.0/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/boost"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/code1/cobotos/install/x86-64-install/oss/include/vtk/vtk-8.2"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/opencv/opencv"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/test"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtQml"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/opt/PhotoneoPhoXiControl/API/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient/sdk/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/icu/"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/expat/"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/python/python3.6m/"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/python3.6m"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/python"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/torch/csrc/api/include/"/>
+					<Add directory="."/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/backward"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include-fixed"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/../../include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 testRobotMove"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testRobotMove/fast">
+				<Option output="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/testRobotMove" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DvtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2)"/>
+					<Add option="-DvtkIOExport_AUTOINIT=2(vtkIOExportOpenGL2,vtkIOExportPDF)"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"/>
+					<Add option="-DvtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2)"/>
+					<Add option="-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/include/libdrm"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Cow.CobotStudio.FrameWork"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Cow.CobotStudio.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Falcon.Camera.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Sensor.RobotDirver.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Sensor.ForceSensor.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Sensor.PLC.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Cow.RobWork.Core"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Puppy.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Tiger.Common"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/include/Tiger.DBus-CXX"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/code1/cobotos/install/x86-64-install/oss/include/pcl-1.9"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/orocos_kdl"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/eigen3.2.10/eigen3"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/code1/cobotos/install/x86-64-install/oss/include/vtk/vtk-8.2"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/cryptopp"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/osg"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/bullet"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/fcl"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/opencv"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/curl"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/zlib"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/xerces"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/SQLiteCpp"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/mongoose"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/dbus/dbus-1.0"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/dbus-1.0/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/sigc/sigc++-2.0"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/sigc++-2.0/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/boost"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/code1/cobotos/install/x86-64-install/oss/include/vtk/vtk-8.2"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/opencv/opencv"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/test"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtWidgets"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtGui"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtCore"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtQml"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/include/QtNetwork"/>
+					<Add directory="/opt/PhotoneoPhoXiControl/API/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient/sdk/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/icu/"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/expat/"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/python/python3.6m/"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/python3.6m"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/python"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/include"/>
+					<Add directory="/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/include/torch/csrc/api/include/"/>
+					<Add directory="."/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/backward"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include-fixed"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/../../include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 testRobotMove/fast"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="COBOTSYS_OSS_INCLUDE">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 COBOTSYS_OSS_INCLUDE"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -j12 -f &quot;/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/test/testRobotMove/4_frame_ur10.cbtx">
+			<Option target="testRobotMove"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/test/testRobotMove/testTraj.cpp">
+			<Option target="testRobotMove"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeSystemSpecificInitialize.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeSystemSpecificInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeGenericSystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeFindCodeBlocks.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/ProcessorCount.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeCInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeCXXInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeLanguageInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPkgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Platform/Linux.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Platform/UnixPaths.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Compiler/GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Compiler/GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Compiler/GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../../../code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/Compiler/GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\code1\cobotos\Tiger\Tiger.GCC\tools\cmake\share\cmake-3.7\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../Tiger/Tiger.Make/cmake/qt_check.cmake">
+			<Option virtualFolder="CMake Files\..\..\Tiger\Tiger.Make\cmake\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../Tiger/Tiger.Make/cmake/common.cmake">
+			<Option virtualFolder="CMake Files\..\..\Tiger\Tiger.Make\cmake\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../Tiger/Tiger.Make/cmake/dev.cmake">
+			<Option virtualFolder="CMake Files\..\..\Tiger\Tiger.Make\cmake\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../Tiger/Tiger.Make/cmake/oss.cmake">
+			<Option virtualFolder="CMake Files\..\..\Tiger\Tiger.Make\cmake\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../Tiger/Tiger.Make/cmake/template/test.template.cmake">
+			<Option virtualFolder="CMake Files\..\..\Tiger\Tiger.Make\cmake\template\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../Tiger/Tiger.Make/cmake/pc.in/qt.conf.in">
+			<Option virtualFolder="CMake Files\..\..\Tiger\Tiger.Make\cmake\pc.in\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/VTKConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/VTKConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/VTKTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/VTKTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/vtkModuleAPI.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/UseVTK.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkkwiml.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtksys.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkutf8.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonMath.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonMisc.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonSystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonTransforms.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonDataModel.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonExecutionModel.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkdoubleconversion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtklz4.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtklzma.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkzlib.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkexpat.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOXMLParser.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOXML.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/PoissonReconstruction.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonColor.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkCommonComputationalGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersGeneral.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingFourier.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkeigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersStatistics.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersExtraction.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkInfovisCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkfreetype.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingFreeType.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingContext2D.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkChartsCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkDICOMParser.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOLegacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkDomainsChemistry.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkglew.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingOpenGL2.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkDomainsChemistryOpenGL2.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkParallelCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersAMR.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersFlowPaths.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersGeneric.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersHybrid.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersHyperTree.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingGeneral.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersImaging.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersModeling.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersParallel.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersParallelImaging.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersPoints.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersProgrammable.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersSMP.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersSelection.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersTexture.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersTopology.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkverdict.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkFiltersVerdict.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkInteractionStyle.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkGUISupportQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtksqlite.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOSQL.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkGUISupportQtSQL.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkMetaIO.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkjpeg.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkpng.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtktiff.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOImage.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingHybrid.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkInfovisLayout.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingColor.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingAnnotation.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingVolume.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkInteractionWidgets.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkViewsCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtklibproj.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkGeovisCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkhdf5.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOAMR.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOAsynchronous.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkpugixml.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOCityGML.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOEnSight.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtknetcdf.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkexodusII.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOExodus.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkgl2ps.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingGL2PSOpenGL2.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOExport.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOExportOpenGL2.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtklibharu.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOExportPDF.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOImport.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtklibxml2.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOInfovis.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOLSDyna.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOMINC.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkogg.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtktheora.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOMovie.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIONetCDF.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOPLY.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkjsoncpp.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOParallel.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOParallelXML.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOSegY.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOTecplotTable.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOVeraOut.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkIOVideo.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingMath.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingMorphological.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingStatistics.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkImagingStencil.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkInteractionImage.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingContextOpenGL2.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingImage.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingLOD.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingLabel.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkRenderingVolumeOpenGL2.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkViewsContext2D.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkViewsInfovis.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/lib/cmake/vtk-8.2/Modules/vtkViewsQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\lib\cmake\vtk-8.2\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/../../install/x86-64-install/oss/3rdparty/qt/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\install\x86-64-install\oss\3rdparty\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

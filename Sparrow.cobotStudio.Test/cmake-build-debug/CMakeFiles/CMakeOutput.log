@@ -1,0 +1,634 @@
+The system is: Linux - 4.15.0-118-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_5b8d3/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_5b8d3.dir/build.make CMakeFiles/cmTC_5b8d3.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b8d3.dir/testCCompiler.c.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -o CMakeFiles/cmTC_5b8d3.dir/testCCompiler.c.o   -c /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5b8d3
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b8d3.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed  CMakeFiles/cmTC_5b8d3.dir/testCCompiler.c.o  -o cmTC_5b8d3 -rdynamic 
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_45806/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_45806.dir/build.make CMakeFiles/cmTC_45806.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -o CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o   -c /home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_45806
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45806.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed -v CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o  -o cmTC_45806 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc
+COLLECT_LTO_WRAPPER=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --prefix=/home/cobot/cobotos/Tiger/Tiger.GCC/ --disable-multilib
+Thread model: posix
+gcc version 5.5.0 (GCC) 
+COMPILER_PATH=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/
+LIBRARY_PATH=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/PhotoneoPhoXiControl/API/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/:./:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib' '-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib' '-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64' '-v' '-o' 'cmTC_45806' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFBfXGn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_45806 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/PhotoneoPhoXiControl/API/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64 -L. -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../.. --as-needed --as-needed CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_45806/fast"]
+  ignore line: [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_45806.dir/build.make CMakeFiles/cmTC_45806.dir/build]
+  ignore line: [make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -o CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o   -c /home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_45806]
+  ignore line: [/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45806.dir/link.txt --verbose=1]
+  ignore line: [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed -v CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o  -o cmTC_45806 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/cobot/cobotos/Tiger/Tiger.GCC/ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/PhotoneoPhoXiControl/API/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/:./:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib' '-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib' '-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64' '-v' '-o' 'cmTC_45806' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFBfXGn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_45806 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/PhotoneoPhoXiControl/API/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64 -L. -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../.. --as-needed --as-needed CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFBfXGn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_45806] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o] ==> ignore
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+    arg [-L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+    arg [-L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc] ==> dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64]
+    arg [-L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64] ==> dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/opt/PhotoneoPhoXiControl/API/lib] ==> dir [/opt/PhotoneoPhoXiControl/API/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64]
+    arg [-L.] ==> ignore
+    arg [-L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..] ==> dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..]
+    arg [--as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_45806.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+  collapse library dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+  collapse library dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib/gcc]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64]
+  collapse library dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/opt/PhotoneoPhoXiControl/API/lib] ==> [/opt/PhotoneoPhoXiControl/API/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64]
+  collapse library dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64;/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib/gcc/x86_64-unknown-linux-gnu/5.5.0;/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib/gcc;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64;/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/opt/PhotoneoPhoXiControl/API/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_5b0f0/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_5b0f0.dir/build.make CMakeFiles/cmTC_5b0f0.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b0f0.dir/feature_tests.c.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc    -std=c11 -o CMakeFiles/cmTC_5b0f0.dir/feature_tests.c.o   -c /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5b0f0
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b0f0.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed  CMakeFiles/cmTC_5b0f0.dir/feature_tests.c.o  -o cmTC_5b0f0 -rdynamic 
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_96c80/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_96c80.dir/build.make CMakeFiles/cmTC_96c80.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96c80.dir/feature_tests.c.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc    -std=c99 -o CMakeFiles/cmTC_96c80.dir/feature_tests.c.o   -c /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_96c80
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96c80.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed  CMakeFiles/cmTC_96c80.dir/feature_tests.c.o  -o cmTC_96c80 -rdynamic 
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_a9b27/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_a9b27.dir/build.make CMakeFiles/cmTC_a9b27.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9b27.dir/feature_tests.c.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc    -std=c90 -o CMakeFiles/cmTC_a9b27.dir/feature_tests.c.o   -c /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a9b27
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b27.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/cc     -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed  CMakeFiles/cmTC_a9b27.dir/feature_tests.c.o  -o cmTC_a9b27 -rdynamic 
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_b04b6/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_b04b6.dir/build.make CMakeFiles/cmTC_b04b6.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b04b6.dir/testCXXCompiler.cxx.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -o CMakeFiles/cmTC_b04b6.dir/testCXXCompiler.cxx.o -c /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b04b6
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b04b6.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed  CMakeFiles/cmTC_b04b6.dir/testCXXCompiler.cxx.o  -o cmTC_b04b6 -rdynamic 
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_62687/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_62687.dir/build.make CMakeFiles/cmTC_62687.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -o CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o -c /home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_62687
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62687.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed -v CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_62687 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++
+COLLECT_LTO_WRAPPER=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --prefix=/home/cobot/cobotos/Tiger/Tiger.GCC/ --disable-multilib
+Thread model: posix
+gcc version 5.5.0 (GCC) 
+COMPILER_PATH=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/
+LIBRARY_PATH=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/PhotoneoPhoXiControl/API/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/:./:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib' '-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib' '-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64' '-v' '-o' 'cmTC_62687' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdAZ7BZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_62687 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/PhotoneoPhoXiControl/API/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64 -L. -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../.. --as-needed --as-needed CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_62687/fast"]
+  ignore line: [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_62687.dir/build.make CMakeFiles/cmTC_62687.dir/build]
+  ignore line: [make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -o CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o -c /home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_62687]
+  ignore line: [/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62687.dir/link.txt --verbose=1]
+  ignore line: [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed -v CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_62687 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/cobot/cobotos/Tiger/Tiger.GCC/ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64/:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/PhotoneoPhoXiControl/API/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/:/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/:/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/:./:/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib' '-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib' '-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64' '-v' '-o' 'cmTC_62687' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2 -plugin /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so -plugin-opt=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdAZ7BZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_62687 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64 -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/PhotoneoPhoXiControl/API/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64 -L. -L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../.. --as-needed --as-needed CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../libexec/gcc/x86_64-unknown-linux-gnu/5.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdAZ7BZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_62687] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtbegin.o] ==> ignore
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+    arg [-L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+    arg [-L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc] ==> dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64]
+    arg [-L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64] ==> dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/opt/PhotoneoPhoXiControl/API/lib] ==> dir [/opt/PhotoneoPhoXiControl/API/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib]
+    arg [-L/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64] ==> dir [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64]
+    arg [-L.] ==> ignore
+    arg [-L/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..] ==> dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..]
+    arg [--as-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_62687.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+  collapse library dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib/gcc/x86_64-unknown-linux-gnu/5.5.0]
+  collapse library dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib/gcc]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64/../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64/../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib/../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64/../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64]
+  collapse library dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/opt/PhotoneoPhoXiControl/API/lib] ==> [/opt/PhotoneoPhoXiControl/API/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib]
+  collapse library dir [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64]
+  collapse library dir [/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/../lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../..] ==> [/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64;/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib/gcc/x86_64-unknown-linux-gnu/5.5.0;/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib/gcc;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/pylon5/lib64;/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/opt/PhotoneoPhoXiControl/API/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/TensorRT/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/daqnavi/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/dh-cam/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/OracleClient;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/AuboSdk/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/freenect2/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/driver/CobotCamera/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/qt/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/3rdparty/opengl/lib/x86_64-linux-gnu;/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/devel/lib;/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_14537/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_14537.dir/build.make CMakeFiles/cmTC_14537.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14537.dir/feature_tests.cxx.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++     -std=c++14 -o CMakeFiles/cmTC_14537.dir/feature_tests.cxx.o -c /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_14537
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14537.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed  CMakeFiles/cmTC_14537.dir/feature_tests.cxx.o  -o cmTC_14537 -rdynamic 
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_114f1/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_114f1.dir/build.make CMakeFiles/cmTC_114f1.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_114f1.dir/feature_tests.cxx.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++     -std=c++11 -o CMakeFiles/cmTC_114f1.dir/feature_tests.cxx.o -c /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_114f1
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_114f1.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed  CMakeFiles/cmTC_114f1.dir/feature_tests.cxx.o  -o cmTC_114f1 -rdynamic 
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make" "cmTC_4b3c2/fast"
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/tools/make/make -f CMakeFiles/cmTC_4b3c2.dir/build.make CMakeFiles/cmTC_4b3c2.dir/build
+make[1]: Entering directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b3c2.dir/feature_tests.cxx.o
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++     -std=c++98 -o CMakeFiles/cmTC_4b3c2.dir/feature_tests.cxx.o -c /home/cobot/Documents/documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4b3c2
+/home/cobot/Documents/documents/code1/cobotos/Tiger/Tiger.GCC/tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b3c2.dir/link.txt --verbose=1
+/home/cobot/Documents/documents/test/cobotsys_sdk/Tiger/Tiger.GCC/bin/c++      -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/dev/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib -L/home/cobot/Documents/documents/test/cobotsys_sdk/install/x86-64-install/oss/lib64 -Wl,--as-needed -Wl,--as-needed  CMakeFiles/cmTC_4b3c2.dir/feature_tests.cxx.o  -o cmTC_4b3c2 -rdynamic 
+make[1]: Leaving directory `/media/cobot/bedf301c-e556-46d0-839e-3f606218484f/home/zsh/Documents/test/cobotsys_sdk/Sparrow/Sparrow.cobotStudio.Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
